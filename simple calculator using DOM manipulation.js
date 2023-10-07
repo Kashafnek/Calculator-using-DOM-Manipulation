@@ -8,7 +8,7 @@ function simplecalculator() {
     }
 
     else if (Operator == "-") {
-        var Result = parseInt(first) + parseInt(second);
+        var Result = parseInt(first) - parseInt(second);
     }
 
     else if (Operator == "Percentage") {
